@@ -54,7 +54,7 @@ function editRows(){
 
        var  divBut = document.getElementById('2But');
 
-       divBut.innerHTML = '<button id="can" type="button" onclick="cancelFun()">Cancel</button><button id="ace" type="button" onclick="acceptFun()">Accept</button>'
+       divBut.innerHTML = '<button id="ace" type="button" onclick="acceptFun()">Accept</button><button id="can" type="button" onclick="cancelFun()">Cancel</button>'
         });
       });
 
