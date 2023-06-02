@@ -27,6 +27,8 @@ console.log(tbody);
 
 function editRows(){
 
+  alert('Por favor volver a dar click');
+
     document.querySelectorAll('a').forEach(cell => {
         cell.addEventListener('click', evt => {
           console.log('The element that was clicked was ', evt.target);
