@@ -1,0 +1,115 @@
+html {
+    font-family: sans-serif;
+    background-color: #e8ecef;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    color: #4F5154;
+  }
+
+  #formu {
+    background-color: white;
+    padding: 30px;
+    max-width: 300px;
+    box-shadow: 0 0 10px 1px #bdbdbd;
+    text-align: center;
+    margin: auto;
+  }
+
+#afili{
+  font-size: 17px;
+  color: rgb(110, 110, 110);
+}
+
+.fa-user{
+  position: absolute;
+  display: block;
+  bottom: 465px;
+  right: 520px;
+  z-index: 1;
+}
+
+#formu input{
+  padding-left: 10px;
+  color: #3b3b3b;
+  font-size: 13px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  border-radius: 3px;
+  border-color: rgb(197, 197, 197);
+  border-width: 1px;
+  border-style: solid;
+  align-items: center;
+  margin: auto;
+  width: 95%;
+  height: 35px;
+}
+
+.fa-envelope{
+  position: absolute;
+  display: block;
+  bottom: 407px;
+  right: 520px;
+  z-index: 1;
+}
+
+.fa-phone{
+  position: absolute;
+  display: block;
+  bottom: 350px;
+  right: 520px;
+  z-index: 1;
+}
+
+#gustos {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#gustos input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  height: 19px;
+}
+
+#gustos button {
+  padding: 12px;
+  background-color: #ffffff;
+  color: #27A844;
+  border-color: #27A844;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0 4px 4px 0;
+
+}
+
+#tabla {
+  background-color: white;
+  padding: 30px;
+  max-width: 250px;
+  box-shadow: 0 0 5px 1px #bdbdbd;
+  text-align: center;
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Define tres columnas de igual tamaño */
+  grid-gap: 10px; /* Espacio entre los elementos */
+}
+
+.grid-item {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+  
+
